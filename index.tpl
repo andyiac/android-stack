@@ -2,16 +2,18 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>天书</title>
+<title>Android-stack</title>
 <style>
+
 body {
 font-family: Tahoma;
 font-size: 10pt;
 line-height: 170%;
 padding: 0 10pt;
 }
+
 nav {
-background: gray;
+background: white;
 color: white;
 overflow-x: hidden;
 overflow-y: auto;
@@ -19,17 +21,21 @@ position: fixed;
 top: 0;
 left: 0;
 bottom: 0;
-width: 200px;
+width: 300px;
 }
+
 header {
-padding-left: 200px;
+padding-left: 300px;
 }
+
 article {
-padding-left: 200px;
+padding-left: 300px;
 }
+
 footer {
-padding-left: 200px;
+padding-left: 300px;
 }
+
 </style>
 </head>
 <body>

@@ -1,32 +1,25 @@
----
-layout: stone
-title: android problems and tips
-date: 2015-11-27 20:20
----
-
-### Talk Is Cheap 技术问题不认真你就输了
----
+# Talk Is Cheap 技术问题不认真你就输了
 
 
-### Doing
+## Doing
 
 -  搞一下下拉刷新实现的原理 [看一下百万哥的](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh.git)
 	- 然而百万哥用了自己的cub类库
 -  KVDB github: DBFlow
 - [Android性能优化](http://www.stuq.org/courseware/966/1129)
 
-### 刷新loading setrefreshing
+## 刷新loading setrefreshing
 
-### Android 深入理解Android中的自定义属性
+## Android 深入理解Android中的自定义属性
 - [http://blog.csdn.net/lmj623565791/article/details/45022631](http://blog.csdn.net/lmj623565791/article/details/45022631)
 
 
-#### Android测试框架引入 可以参考
+## Android测试框架引入 可以参考
 
 - [android cleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
 - [Jake Wharton u2020](https://github.com/JakeWharton/u2020)
 
-#### Zcommon
+## Zcommon
 
 看完马天宇的 android common 自己写的这个库实在是不足，不过可以自己练习库的写法
 
@@ -39,23 +32,21 @@ date: 2015-11-27 20:20
 
 
 
-
-
-### Todo List
+## Todo List
 
 - ［√］View ViewGroup LinearLayout ...
 - okhttp 和 retrofit 引入
 	 - [引入缓存](http://omgitsmgp.com/2015/12/02/effective-okhttp/) 
 
 
-#### 疑惑
+## 疑惑
 - Android 最开始为一个APP分配多少内存  
 - Android 的性能分析指标都有哪些
 - Java final 关键字 在listview 中拿到ListItem
 - ListView adapter 中getView中的设置背景 设置的全局变量 不生效，局部final变量，设置背景才可变
 - 工程目录中lib与libs的区别
 
-#### 要达
+## 要达
 - 到不用查文档的地步直接翻翻SDK中的sourcecode就直接能上手的地步
 - 熟读Android SDK
 - Activity系列
@@ -67,7 +58,7 @@ date: 2015-11-27 20:20
 ---
 
 
-#### 源码分析
+## 源码分析
 
 - ［√］layout源码分析布局 weight layout_weight hyman的视频
 	- [weight](http://blog.csdn.net/xiechengfa/article/details/38334327)
@@ -100,7 +91,8 @@ date: 2015-11-27 20:20
 
 
 ---
-#### View
+
+## View
 
 - 上传jcenter 或 Maven仓库
 - Dagger2 Dagger1
@@ -115,7 +107,8 @@ date: 2015-11-27 20:20
 
 
 ---
-### skills
+## skills
+
 - Service: boundService/DreamService
 - jni ndk 的使用
 - Mock [BookdashAndroidApp](https://github.com/spongebobrf/BookdashAndroidApp)
@@ -131,7 +124,7 @@ date: 2015-11-27 20:20
 - Looper && Handler Thread
 
 ---
-#### 架构设计模式
+## 架构设计模式
 
 - GitHub：AndroidDynamicLoader
 - GitHub：Android-CleanArchitecture
@@ -143,7 +136,7 @@ date: 2015-11-27 20:20
 - [Android应用架构](http://www.jianshu.com/p/8ca27934c6e6)
 
 ---
-#### 开源项目
+## 开源项目
 
 - 内存性能优化
 - 多线程下载优化
@@ -159,45 +152,45 @@ date: 2015-11-27 20:20
 - [ion](https://github.com/koush/ion)
 
 ---
-#### 数据结构算法
+## 数据结构算法
 
 - 递归算法的实现
 - 时间复杂度 空间复杂度
 
-#### Links 
+### Links 
 
 - [imooc hyman](http://www.imooc.com/space/teacher/id/320852)
 - [每个Android开发者都应该了解的资源列表](http://www.admin10000.com/document/6858.html)
 - [android-performance-case-study](http://www.curious-creature.com/2012/12/01/android-performance-case-study/)
 
-#### 数据结构
+### 数据结构
 
 - SparseArray 稀疏数组
 - ArrayList
 
-#### 算法
+### 算法
 
 - ContainerHelpers.binarySearch() 中使用>>>1 表示的二进制 无符号右移1位
 	- 负数的二进制表示
 - [visualgo.net](http://visualgo.net/)
 - [数据结构与算法](http://algorithm.yuanbin.me/zh-hans/index.html)
 
-#### AndroidStudio 插件
+## AndroidStudio 插件
 
 - GsonFormat 快速生成json文件的工具
 	使用方法 command ＋ n  选择GsonFormat 将正确的json数据粘贴到输入框即可 
 	
-#### Library 
+## Library 
 
 - [api compat guide](http://liaohuqiu.net/cn/posts/android-api-compat-guide/)	
 
 
-#### 反编译
+## 反编译
 - [Apk tool](http://ibotpeaches.github.io/Apktool/install/)
 
 
 
-### Publish aars to Maven	
+## Publish aars to Maven	
 	
 -  [Pushing-aars-to-maven-central](http://chris.banes.me/2013/08/27/pushing-aars-to-maven-central/)
 -  [✓] [Android Studio使用Gradle上传AAR至Maven](http://2dxgujun.com/post/2015/02/11/Publish-AAR-to-Maven-Central-with-Gradle.html)
@@ -245,9 +238,7 @@ date: 2015-11-27 20:20
 
 #### 架构
 - [Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
-  - [architecting-android-the-evolution](http://fernandocejas.com/2015/07/18/architecting-android-the-evolution/)
-
-
+- [architecting-android-the-evolution](http://fernandocejas.com/2015/07/18/architecting-android-the-evolution/)
 - [dev-summit-architecture-demo](https://github.com/yigit/dev-summit-architecture-demo)
 - [reark](https://github.com/reark/reark)
 - [EffectiveAndroid](https://github.com/rallat/EffectiveAndroid)
@@ -306,14 +297,14 @@ date: 2015-11-27 20:20
 - [best-blogs-for-ios-developers](http://www.softwarehow.com/best-blogs-for-ios-developers/)
 
 
-#### Git 开发流程 GitFlow
+## Git 开发流程 GitFlow
 
 - [why-arent-you-using-git-flow](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/)
 - [github gitflow](https://github.com/nvie/gitflow)
 - [a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model)
 - [Android 提升开发效率](https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=400785752&idx=1&sn=e1c166e7fad0892811c9ca9bca6d1540)
 
-#### Videos
+### Videos
 
 视频学习资源
 
@@ -321,7 +312,7 @@ date: 2015-11-27 20:20
 - [www.freecodecamp.com/](http://www.freecodecamp.com/)
 - [youtube custom views](https://www.youtube.com/watch?v=NYtB6mlu7vA) daimajia 推荐
 
-#### 开放大学
+### 开放大学
 - [computer-science](https://github.com/open-source-society/computer-science) 计算机科学公开课
 - [udacity](https://www.udacity.com)
 - [visualgo](http://www.visualgo.net)
