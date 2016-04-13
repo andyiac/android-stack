@@ -1,0 +1,393 @@
+<!doctype HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>天书</title>
+<style>
+body {
+font-family: Tahoma;
+font-size: 10pt;
+line-height: 170%;
+padding: 0 10pt;
+}
+nav {
+background: gray;
+color: white;
+overflow-x: hidden;
+overflow-y: auto;
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+width: 200px;
+}
+header {
+padding-left: 200px;
+}
+article {
+padding-left: 200px;
+}
+footer {
+padding-left: 200px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1 id="android-slack">Android Slack</h1>
+<p>Android 学习开发技术栈、面试总结、学习路线等</p>
+
+</header>
+<nav>
+<ul>
+<li class="level2"><a href="#1">date: 2015-11-27 20:20</a></li><li class="level3"><a href="#1.1">Talk Is Cheap 技术问题不认真你就输了</a></li><li class="level3"><a href="#1.2">Doing</a></li><li class="level3"><a href="#1.3">刷新loading setrefreshing</a></li><li class="level3"><a href="#1.4">Android 深入理解Android中的自定义属性</a></li><li class="level4"><a href="#1.4.1">Android测试框架引入 可以参考</a></li><li class="level4"><a href="#1.4.2">Zcommon</a></li><li class="level3"><a href="#1.5">Todo List</a></li><li class="level4"><a href="#1.5.1">疑惑</a></li><li class="level4"><a href="#1.5.2">要达</a></li><li class="level4"><a href="#1.5.3">源码分析</a></li><li class="level4"><a href="#1.5.4">View</a></li><li class="level3"><a href="#1.6">skills</a></li><li class="level4"><a href="#1.6.1">架构设计模式</a></li><li class="level4"><a href="#1.6.2">开源项目</a></li><li class="level4"><a href="#1.6.3">数据结构算法</a></li><li class="level4"><a href="#1.6.4">Links</a></li><li class="level4"><a href="#1.6.5">数据结构</a></li><li class="level4"><a href="#1.6.6">算法</a></li><li class="level4"><a href="#1.6.7">AndroidStudio 插件</a></li><li class="level4"><a href="#1.6.8">Library</a></li><li class="level4"><a href="#1.6.9">反编译</a></li><li class="level3"><a href="#1.7">Publish aars to Maven</a></li><li class="level2"><a href="#2">Candies</a></li><li class="level4"><a href="#2.0.1">工具类</a></li><li class="level4"><a href="#2.0.2">架构</a></li><li class="level4"><a href="#2.0.3">Awesome android</a></li><li class="level4"><a href="#2.0.4">Awesome list</a></li><li class="level4"><a href="#2.0.5">RxJava</a></li><li class="level4"><a href="#2.0.6">Dagger2</a></li><li class="level4"><a href="#2.0.7">Custom animations</a></li><li class="level3"><a href="#2.1">Resources</a></li><li class="level4"><a href="#2.1.1">MVP Pattern</a></li><li class="level4"><a href="#2.1.2">Others</a></li><li class="level4"><a href="#2.1.3">Blogs</a></li><li class="level4"><a href="#2.1.4">Git 开发流程 GitFlow</a></li><li class="level4"><a href="#2.1.5">Videos</a></li><li class="level4"><a href="#2.1.6">开放大学</a></li><li class="level2"><a href="#3">面经</a></li><li class="level3"><a href="#3.1">具体问哪些问题？</a></li><li class="level3"><a href="#3.2">1. Android经验</a></li><li class="level3"><a href="#3.3">2. Java水平</a></li><li class="level3"><a href="#3.4">3. IT基础知识</a></li><li class="level3"><a href="#3.5">4. 代码质量的认识</a></li><li class="level3"><a href="#3.6">5. 技术视野</a></li><li class="level3"><a href="#3.7">6. 技术想象力</a></li><li class="level3"><a href="#3.8">7. 技术习惯</a></li></ul>
+
+</nav>
+
+<article>
+<hr>
+<p>layout: stone
+title: android problems and tips</p>
+<h2 id="1">date: 2015-11-27 20:20</h2>
+<h3 id="1.1">Talk Is Cheap 技术问题不认真你就输了</h3>
+<hr>
+<h3 id="1.2">Doing</h3>
+<ul>
+<li>搞一下下拉刷新实现的原理 <a href="https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh.git">看一下百万哥的</a><ul>
+<li>然而百万哥用了自己的cub类库</li>
+</ul>
+</li>
+<li>KVDB github: DBFlow</li>
+<li><a href="http://www.stuq.org/courseware/966/1129">Android性能优化</a></li>
+</ul>
+<h3 id="1.3">刷新loading setrefreshing</h3>
+<h3 id="1.4">Android 深入理解Android中的自定义属性</h3>
+<ul>
+<li><a href="http://blog.csdn.net/lmj623565791/article/details/45022631"><a href="http://blog.csdn.net/lmj623565791/article/details/45022631">http://blog.csdn.net/lmj623565791/article/details/45022631</a></a></li>
+</ul>
+<h4 id="1.4.1">Android测试框架引入 可以参考</h4>
+<ul>
+<li><a href="https://github.com/android10/Android-CleanArchitecture">android cleanArchitecture</a></li>
+<li><a href="https://github.com/JakeWharton/u2020">Jake Wharton u2020</a></li>
+</ul>
+<h4 id="1.4.2">Zcommon</h4>
+<p>看完马天宇的 android common 自己写的这个库实在是不足，不过可以自己练习库的写法</p>
+<ul>
+<li>网络状态</li>
+<li>KVdb</li>
+<li>md5</li>
+<li>hash</li>
+<li>String</li>
+<li>短信验证的倒计时读秒</li>
+</ul>
+<h3 id="1.5">Todo List</h3>
+<ul>
+<li>［√］View ViewGroup LinearLayout ...</li>
+<li>okhttp 和 retrofit 引入<ul>
+<li><a href="http://omgitsmgp.com/2015/12/02/effective-okhttp/">引入缓存</a> </li>
+</ul>
+</li>
+</ul>
+<h4 id="1.5.1">疑惑</h4>
+<ul>
+<li>Android 最开始为一个APP分配多少内存  </li>
+<li>Android 的性能分析指标都有哪些</li>
+<li>Java final 关键字 在listview 中拿到ListItem</li>
+<li>ListView adapter 中getView中的设置背景 设置的全局变量 不生效，局部final变量，设置背景才可变</li>
+<li>工程目录中lib与libs的区别</li>
+</ul>
+<h4 id="1.5.2">要达</h4>
+<ul>
+<li>到不用查文档的地步直接翻翻SDK中的sourcecode就直接能上手的地步</li>
+<li>熟读Android SDK</li>
+<li>Activity系列</li>
+<li>Service 系列</li>
+<li>熟读JAVA SDK</li>
+<li>熟读常用类库SDK</li>
+</ul>
+<hr>
+<h4 id="1.5.3">源码分析</h4>
+<ul>
+<li>［√］layout源码分析布局 weight layout_weight hyman的视频<ul>
+<li><a href="http://blog.csdn.net/xiechengfa/article/details/38334327">weight</a></li>
+</ul>
+</li>
+<li>［√］view 的onclick 事件是如何分发的</li>
+<li>HashMap sourcecode</li>
+<li><p>listview 性能优化 viewholder 重用的convertview</p>
+<ul>
+<li>判断上滑下滑</li>
+<li>判断是否滑动到顶部</li>
+<li>RecylerBin</li>
+<li>添加header</li>
+<li><a href="http://www.xuanyusong.com/archives/1252">Listview 内存优化</a>     - <a href="http://www.cnblogs.com/over140/archive/2011/03/23/1991100.html">ListView性能优化之视图缓存</a></li>
+</ul>
+</li>
+<li><p>listview的机制、实现原理，上拉后内容加载到内存缓冲了了么</p>
+</li>
+<li>Context</li>
+<li><p>findViewById() 实现原理 消耗费时</p>
+<ul>
+<li><a href="http://www.cnblogs.com/over140/archive/2011/03/23/1991100.html">耗时</a></li>
+</ul>
+</li>
+<li><p>setContentView() 实现原理</p>
+</li>
+<li>CustomView </li>
+<li>View的源码</li>
+<li>ViewGroup的源码</li>
+<li>Activity的启动过程</li>
+<li>sharedpreference 为何不能多线程同时操作</li>
+<li>静态变量和生命周期的关系</li>
+<li>内存泄漏/溢出是如何发生的又如何避免</li>
+<li>xml 布局中layout_width layout_height，这些属性是如何拿到的（引出MVC）</li>
+<li>ListView 中覆写OnEventTouch方法 后item 不能设置点击事件</li>
+<li>生命周期中的回调函数实现原理</li>
+</ul>
+<hr>
+<h4 id="1.5.4">View</h4>
+<ul>
+<li>上传jcenter 或 Maven仓库</li>
+<li>Dagger2 Dagger1</li>
+<li>RxJava API</li>
+<li>DaggedViewPager</li>
+<li>JSON key提取</li>
+<li>ImageLoader 性能比较</li>
+<li>Volley</li>
+<li>Eventbus vs otto vs Rxbus</li>
+<li>声明周期到底是如何回调的</li>
+<li>消息机制 Message Handler</li>
+</ul>
+<hr>
+<h3 id="1.6">skills</h3>
+<ul>
+<li>Service: boundService/DreamService</li>
+<li>jni ndk 的使用</li>
+<li>Mock <a href="https://github.com/spongebobrf/BookdashAndroidApp">BookdashAndroidApp</a></li>
+<li><a href="https://github.com/hakimel/reveal.js/"> ppt js reveal.js</a></li>
+<li>RxJava<ul>
+<li><a href="http://reactivex.io/languages.html">RxJava api</a></li>
+<li><a href="http://gank.io/post/560e15be2dca930e00da1083">仍物线 RxJava</a></li>
+</ul>
+</li>
+<li>使用RenderScript和压缩来计算高斯模糊</li>
+<li>复制内容到粘贴板</li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&amp;mid=401572523&amp;idx=1&amp;sn=19504d41b81f82a5388ae4f95072aea5&amp;scene=0">Maven</a></li>
+<li><a href="http://lab.hakim.se/reveal-js/#/">reveal-js</a></li>
+<li>Android shape</li>
+<li>Looper &amp;&amp; Handler Thread</li>
+</ul>
+<hr>
+<h4 id="1.6.1">架构设计模式</h4>
+<ul>
+<li>GitHub：AndroidDynamicLoader</li>
+<li>GitHub：Android-CleanArchitecture</li>
+<li>MVC </li>
+<li>MVP</li>
+<li>MVVM</li>
+<li>观察者模式</li>
+<li>泛型的用法</li>
+<li><a href="http://www.jianshu.com/p/8ca27934c6e6">Android应用架构</a></li>
+</ul>
+<hr>
+<h4 id="1.6.2">开源项目</h4>
+<ul>
+<li>内存性能优化</li>
+<li>多线程下载优化</li>
+<li>ChinaCitySection 优化</li>
+<li>KVDB <ul>
+<li><a href="https://github.com/Raizlabs/DBFlow">DBFlow</a></li>
+<li><a href="https://github.com/pilgr/Paper">Paper</a></li>
+<li><a href="https://github.com/requery/requery">requery</a></li>
+</ul>
+</li>
+<li>自动换肤github: nightowl/AndroidChangeSkin/ChangeSkin</li>
+<li>Android 动态热修复</li>
+<li>px 布局 github: AndroidAutoLayout</li>
+<li><a href="https://github.com/DrKLO/Telegram">Telegram</a></li>
+<li><a href="https://github.com/koush/ion">ion</a></li>
+</ul>
+<hr>
+<h4 id="1.6.3">数据结构算法</h4>
+<ul>
+<li>递归算法的实现</li>
+<li>时间复杂度 空间复杂度</li>
+</ul>
+<h4 id="1.6.4">Links</h4>
+<ul>
+<li><a href="http://www.imooc.com/space/teacher/id/320852">imooc hyman</a></li>
+<li><a href="http://www.admin10000.com/document/6858.html">每个Android开发者都应该了解的资源列表</a></li>
+<li><a href="http://www.curious-creature.com/2012/12/01/android-performance-case-study/">android-performance-case-study</a></li>
+</ul>
+<h4 id="1.6.5">数据结构</h4>
+<ul>
+<li>SparseArray 稀疏数组</li>
+<li>ArrayList</li>
+</ul>
+<h4 id="1.6.6">算法</h4>
+<ul>
+<li>ContainerHelpers.binarySearch() 中使用&gt;&gt;&gt;1 表示的二进制 无符号右移1位<ul>
+<li>负数的二进制表示</li>
+</ul>
+</li>
+<li><a href="http://visualgo.net/">visualgo.net</a></li>
+<li><a href="http://algorithm.yuanbin.me/zh-hans/index.html">数据结构与算法</a></li>
+</ul>
+<h4 id="1.6.7">AndroidStudio 插件</h4>
+<ul>
+<li>GsonFormat 快速生成json文件的工具
+  使用方法 command ＋ n  选择GsonFormat 将正确的json数据粘贴到输入框即可 </li>
+</ul>
+<h4 id="1.6.8">Library</h4>
+<ul>
+<li><a href="http://liaohuqiu.net/cn/posts/android-api-compat-guide/">api compat guide</a>    </li>
+</ul>
+<h4 id="1.6.9">反编译</h4>
+<ul>
+<li><a href="http://ibotpeaches.github.io/Apktool/install/">Apk tool</a></li>
+</ul>
+<h3 id="1.7">Publish aars to Maven</h3>
+<ul>
+<li><a href="http://chris.banes.me/2013/08/27/pushing-aars-to-maven-central/">Pushing-aars-to-maven-central</a></li>
+<li>[✓] <a href="http://2dxgujun.com/post/2015/02/11/Publish-AAR-to-Maven-Central-with-Gradle.html">Android Studio使用Gradle上传AAR至Maven</a></li>
+<li><a href="http://git.bookislife.com/post/2015/how-to-upload-library-to-maven-central">how-to-upload-library-to-maven-central</a></li>
+<li><a href="http://linroid.com/2015/03/13/upload-android-library-to-moven-central/">upload-android-library-to-moven-central</a></li>
+<li><a href="http://blog.saymagic.cn/2015/02/16/release-library-to-jcenter.html">release-library-to-jcenter</a></li>
+<li><a href="https://oss.sonatype.org">oss.sonatype.org</a></li>
+<li><a href="https://issues.sonatype.org">issues.sonatype.org</a></li>
+</ul>
+<hr>
+<h2 id="2">Candies</h2>
+<ul>
+<li><a href="http://musicforprogramming.net/">Music for programming</a></li>
+</ul>
+<h4 id="2.0.1">工具类</h4>
+<ul>
+<li><a href="http://www.android-arsenal.com/">android arsenal</a></li>
+<li><a href="http://androiddevtools.cn/">android dev tools</a></li>
+<li><p>IDEA 15
+注册码可以沿用14的,只是在 注册时选择 License server ，填 <a href="http://idea.lanyus.com">http://idea.lanyus.com</a> 然后点击 OK</p>
+</li>
+<li><p><a href="http://drops.wooyun.org/tips/2423">Charles 抓包</a>  </p>
+</li>
+</ul>
+<h4 id="2.0.2">架构</h4>
+<ul>
+<li><a href="https://github.com/android10/Android-CleanArchitecture">Android-CleanArchitecture</a><ul>
+<li><a href="http://fernandocejas.com/2015/07/18/architecting-android-the-evolution/">architecting-android-the-evolution</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="https://github.com/yigit/dev-summit-architecture-demo">dev-summit-architecture-demo</a></li>
+<li><a href="https://github.com/reark/reark">reark</a></li>
+<li><a href="https://github.com/rallat/EffectiveAndroid">EffectiveAndroid</a></li>
+</ul>
+<h4 id="2.0.3">Awesome android</h4>
+<ul>
+<li><a href="http://snowdream.github.io/awesome-android/"><a href="http://snowdream.github.io/awesome-android/">http://snowdream.github.io/awesome-android/</a></a></li>
+</ul>
+<h4 id="2.0.4">Awesome list</h4>
+<ul>
+<li><a href="https://github.com/sindresorhus/awesome"><a href="https://github.com/sindresorhus/awesome">https://github.com/sindresorhus/awesome</a></a></li>
+</ul>
+<h4 id="2.0.5">RxJava</h4>
+<ul>
+<li><a href="http://gank.io/post/560e15be2dca930e00da1083">扔物线 给Android开发者的RxJava详解</a></li>
+<li><a href="https://www.gitbook.com/book/yongjhih/feed/details">一本讲RxJava不错的gitbook</a></li>
+</ul>
+<h4 id="2.0.6">Dagger2</h4>
+<ul>
+<li><a href="http://google.github.io/dagger/">Google offical docs </a></li>
+<li><a href="http://frogermcs.github.io/dependency-injection-with-dagger-2-the-api/">Frogermcs&#39;s Dependency injection with Dagger 2 </a></li>
+<li><a href="https://www.parleys.com/search/dagger/PRESENTATIONS">parleys dagger2 by Jake Wharton</a></li>
+</ul>
+<h4 id="2.0.7">Custom animations</h4>
+<ul>
+<li><a href="http://cyrilmottier.com/2014/05/20/custom-animations-with-fragments/">cool animation</a></li>
+</ul>
+<h3 id="2.1">Resources</h3>
+<ul>
+<li><a href="http://iconfont.cn">icon font 阿里巴巴矢量图标</a></li>
+<li><a href="http://www.google.com/design/icons/">Google Material icons</a> 谷歌官方提供</li>
+<li><a href="https://medium.com/@BashaChris/the-android-viewpager-has-become-a-fairly-popular-component-among-android-apps-its-simple-6bca403b16d4#.n70fuwmf5">Cool UI</a></li>
+</ul>
+<h4 id="2.1.1">MVP Pattern</h4>
+<ul>
+<li><a href="https://medium.com/mobiwise-blog/android-basic-project-architecture-for-mvp-72f4b33252d0#.aiut445m5">basic architecture for mvp</a></li>
+</ul>
+<h4 id="2.1.2">Others</h4>
+<ul>
+<li><a href="https://github.com/zmywly8866/Worth-Reading-the-Android-technical-articles">Worth Reading the Android technical articles</a></li>
+<li><a href="http://www.androidauthority.com/best-resources-android-development-372414/">best-resources-android-development</a></li>
+<li><a href="https://github.com/xfumihiro/ViewInspector">Android 黑科技 ViewInspetor</a></li>
+<li><a href="http://githubengineering.com/">github 团队博客</a></li>
+<li><a href="http://www.infoq.com/cn/news/2015/11/ibireme-interview">专访YYKit作者郭曜源：开源大牛是怎样炼成的</a></li>
+<li><a href="http://m.sui.taobao.org/">sui.taobao.org</a></li>
+</ul>
+<h4 id="2.1.3">Blogs</h4>
+<ul>
+<li><a href="http://liaohuqiu.net/">秋百万 liaohuqiu</a></li>
+<li><a href="http://blog.daimajia.com/">林惠文 daimajia</a></li>
+<li><a href="http://blog.ibireme.com/">郭曜源 ibireme</a></li>
+<li><p><a href="http://androidperformance.com/">androidperformance.com</a></p>
+</li>
+<li><p><a href="https://github.com/CodingFish2015/Android-Developer-Blog-Rss">Android-Developer-Blog-Rss</a></p>
+</li>
+<li><a href="https://futurestud.io/">futurestud.io</a> </li>
+<li><a href="https://github.com/CharonChui/AndroidNote">AndroidNote</a> Android笔记</li>
+<li><a href="http://tech.meituan.com/">tech.meituan.com</a> 美团技术博客</li>
+<li><a href="http://www.softwarehow.com/best-blogs-for-ios-developers/">best-blogs-for-ios-developers</a></li>
+</ul>
+<h4 id="2.1.4">Git 开发流程 GitFlow</h4>
+<ul>
+<li><a href="http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/">why-arent-you-using-git-flow</a></li>
+<li><a href="https://github.com/nvie/gitflow">github gitflow</a></li>
+<li><a href="http://nvie.com/posts/a-successful-git-branching-model">a-successful-git-branching-model</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;mid=400785752&amp;idx=1&amp;sn=e1c166e7fad0892811c9ca9bca6d1540">Android 提升开发效率</a></li>
+</ul>
+<h4 id="2.1.5">Videos</h4>
+<p>视频学习资源</p>
+<ul>
+<li><a href="https://www.parleys.com">parleys</a></li>
+<li><a href="http://www.freecodecamp.com/">www.freecodecamp.com/</a></li>
+<li><a href="https://www.youtube.com/watch?v=NYtB6mlu7vA">youtube custom views</a> daimajia 推荐</li>
+</ul>
+<h4 id="2.1.6">开放大学</h4>
+<ul>
+<li><a href="https://github.com/open-source-society/computer-science">computer-science</a> 计算机科学公开课</li>
+<li><a href="https://www.udacity.com">udacity</a></li>
+<li><a href="http://www.visualgo.net">visualgo</a></li>
+</ul>
+<hr>
+<h2 id="3">面经</h2>
+<ul>
+<li><a href="http://www.jianshu.com/p/74565bd741ab">面试时，问哪些问题能试出一个Android应用开发者真正的水平？</a></li>
+</ul>
+<p>一下问题摘自与上面链接</p>
+<h3 id="3.1">具体问哪些问题？</h3>
+<p>　　前面提到的是要重点考察的点，那么具体的Android开发，有没有一些通用的问题可以问的呢？我个人一般会从这几个角度考察候选人：</p>
+<h3 id="3.2">1. Android经验</h3>
+<p>　　如果不是校招，Android经验是必须的，我比较喜欢问一些基础概念与技术原理，比如Activity、View、Window的理解，各LaunchMode的使用场景，View的绘制流程，Touch事件机制，Android动画的原理，Handler, Looper的理解，Android跨进程通讯的方式，Binder的理解，Android Mashup设计的理解等等。</p>
+<h3 id="3.3">2. Java水平</h3>
+<p>　　基本上就是Effective Java那本书里提到的东西，如果你背完那本书里的问题，并且对答如流，没问题，就要你这样的。其实也会考察关于final用法，反射原理，注解原理，java编译过程，GC等一些常见问题。</p>
+<h3 id="3.4">3. IT基础知识</h3>
+<p>　　其实就是计算机科班学生学校里学到的一些东西，在校招时这块是重点，社招会放宽，但一些基本的常识是要有的，比如不少人都不知道http的get post有啥区别，https的那个s是什么意思，讲不清进程与线程的概念，不知道二分算法是个啥东西。这些简单问题的筛选，可以过滤一些所谓野路子的程序员，是不是科班出身不重要，搞这行就得对一些基本常识有概念，不然以后怎么愉快的交流呢？</p>
+<h3 id="3.5">4. 代码质量的认识</h3>
+<p>　　我们需要的是一个对代码味道有感觉的人，关于这点，看下《Clean Code》就够了，面试中这点其实不好考察，可以让他聊一聊对代码质量的认识，虽然不能排除对方夸夸其谈，至少想法不多，只能提到命名风格这一点的人是不符合要求的，也可以在写Code的环节中观察。</p>
+<h3 id="3.6">5. 技术视野</h3>
+<p>　　比如对Android开发新技术的了解与学习，对其它流行技术领域的了解，这其实与我刚才提到的技术广度的考察有关，就我面试过程中，发现很多非互联网行业的从业人员，因为公司各种操蛋规定与公司技术氛围的原因，技术视野相当狭窄。</p>
+<p>　　我个人对这点深有体会，2011年我还在传统行业从事软件研发，当时的公司因为担心技术信息泄露，不让上网，相当封闭，我个人虽然自认为已在那个行业内做到业内专家的级别，但总感觉哪里不对，有一天我很兴奋的打算跟身边同事聊一聊Android的时候，发现他们居然都不知Android为何物？2011年啊同志们，当时的震惊无法言表，深切感觉到需要作出改变了，毅然放弃多年行业积累，转战移动互联网，直到现在。时至今日，多年前的小伙伴也有很多混出了名党，开始走向人生巅峰，我也从来没有后悔当初做出的选择。</p>
+<h3 id="3.7">6. 技术想象力</h3>
+<p>　　一个优秀的技术人，如果知识的深度与广度足够，知识已成体系，那么他对于一些从未接触过的领域，也是可以做出足够合理的想象与判断，面试过程中如果问到一些领域候选人没有涉猎，这时候一般不用过多纠缠，但如果你想借这个问题考察下他的技术想象力，可以深入下去，比如问他：“你觉得这个东西应该是什么原理呢？”，“这个酷炫的控件，如果要你来做，你会怎么实现？”。在这方面表现出色的同学无疑是有深厚基础与足够广度的人。</p>
+<h3 id="3.8">7. 技术习惯</h3>
+<p>　　好的程序员都会有好的习惯，比如各种快捷键的熟练应用，各种命令行的掌握，一些提高开发效率的工具与习惯，碰到问题是baidu还是google，有没有做一些小工具帮助减少重复工作，工作之余有没有继续学习？有没有看什么不错的书等等，这些小细节很大程度上决定了程序员的开发效率，这也是为什么很多人说一个优秀程序员抵得上100个普通程序员，这也是重要原因之一。</p>
+
+</article>
+
+<footer>
+
+</footer>
+
+</body>
+</html>

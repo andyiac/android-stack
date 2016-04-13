@@ -41,10 +41,7 @@ padding-left: 200px;
 </nav>
 
 <article>
-
-<x-markdown src="section/01_install.md" />
-<x-markdown src="section/02_usage.md" />
-
+<x-markdown src="section/02_android_problems.md" />
 </article>
 
 <footer>
