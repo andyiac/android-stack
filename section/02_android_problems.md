@@ -1,6 +1,6 @@
-# Talk Is Cheap 技术问题不认真你就输了
+## top
 
-## Doing
+## doing
 
 -  [下拉刷新实现的原理 看一下百万哥的](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh.git)
 -  KVDB github: DBFlow
@@ -27,8 +27,6 @@ Zcommon
 - 短信验证的倒计时读秒
 
 
-## Todo List
-
 - ［√］View ViewGroup LinearLayout ...
 - okhttp 和 retrofit 引入
 - [引入缓存](http://omgitsmgp.com/2015/12/02/effective-okhttp/) 
@@ -50,7 +48,7 @@ Zcommon
 - 熟读常用类库SDK
 
 
----
+ 
 
 
 ## 源码分析
@@ -85,7 +83,7 @@ Zcommon
 
 
 
----
+ 
 
 ## View
 
@@ -101,7 +99,7 @@ Zcommon
 - 消息机制 Message Handler
 
 
----
+ 
 ## skills
 
 - Service: boundService/DreamService
@@ -118,7 +116,7 @@ Zcommon
 - Android shape
 - Looper && Handler Thread
 
----
+ 
 ## 架构设计模式
 
 - GitHub：AndroidDynamicLoader
@@ -130,7 +128,7 @@ Zcommon
 - 泛型的用法
 - [Android应用架构](http://www.jianshu.com/p/8ca27934c6e6)
 
----
+ 
 ## 开源项目
 
 - 内存性能优化
@@ -146,7 +144,7 @@ Zcommon
 - [Telegram](https://github.com/DrKLO/Telegram)
 - [ion](https://github.com/koush/ion)
 
----
+ 
 ## 数据结构算法
 
 - 递归算法的实现
@@ -184,7 +182,7 @@ Zcommon
 - [Apk tool](http://ibotpeaches.github.io/Apktool/install/)
 
 
-## Publish aars to Maven	
+## publish to maven	
 	
 -  [Pushing-aars-to-maven-central](http://chris.banes.me/2013/08/27/pushing-aars-to-maven-central/)
 -  [✓] [Android Studio使用Gradle上传AAR至Maven](http://2dxgujun.com/post/2015/02/11/Publish-AAR-to-Maven-Central-with-Gradle.html)
@@ -195,7 +193,6 @@ Zcommon
 - [issues.sonatype.org](https://issues.sonatype.org)
 
 
----
 
 ## Candies 
 

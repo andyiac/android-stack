@@ -40,18 +40,34 @@ padding-left: 300px;
 </head>
 <body>
 <header>
-<x-markdown src="section/00_header.md" />
+<x-markdown src="section/00_header.md"/>
 </header>
 <nav>
 <x-index />
 </nav>
 
 <article>
-<x-markdown src="section/02_android_problems.md" />
+<x-markdown src="section/02_android_problems.md"/>
+</article>
+
+<article>
+<x-markdown src="section/95_find_job.md"/>
+</article>
+
+<article>
+<x-markdown src="section/96_tips.md"/>
+</article>
+
+<article>
+<x-markdown src="section/97_ideas.md"/>
+</article>
+
+<article>
+<x-markdown src="section/98_todo.md"/>
 </article>
 
 <footer>
-<x-markdown src="section/99_footer.md" />
+<x-markdown src="section/99_footer.md"/>
 </footer>
 
 </body>
