@@ -85,3 +85,6 @@
 ### 本文访问分析
 
 [google analytics/web](https://analytics.google.com/analytics/web/)
+
+### blog theme
+- [typecho](http://typecho.org/)
