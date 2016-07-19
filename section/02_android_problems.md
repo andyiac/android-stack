@@ -1,3 +1,18 @@
+## skills list
+
+- Service: boundService/DreamService
+- jni ndk 的使用
+- Mock [BookdashAndroidApp](https://github.com/spongebobrf/BookdashAndroidApp)
+- [ ppt js reveal.js](https://github.com/hakimel/reveal.js/)
+- RxJava
+- 使用RenderScript和压缩来计算高斯模糊
+- 复制内容到粘贴板
+- [Maven](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=401572523&idx=1&sn=19504d41b81f82a5388ae4f95072aea5&scene=0)
+- [reveal-js](http://lab.hakim.se/reveal-js/#/)
+- Android shape
+- Looper && Handler Thread
+
+
 ## 源码分析
 
 - layout源码分析布局 weight layout_weight hyman的视频
@@ -9,11 +24,11 @@
 	- 判断是否滑动到顶部
 	- RecylerBin
 	- 添加header
-	- [Listview 内存优化](http://www.xuanyusong.com/archives/1252) 	- [ListView性能优化之视图缓存](http://www.cnblogs.com/over140/archive/2011/03/23/1991100.html)
+	- [Listview 内存优化](http://www.xuanyusong.com/archives/1252)
+	- [ListView性能优化之视图缓存](http://www.cnblogs.com/over140/archive/2011/03/23/1991100.html)
 - listview的机制、实现原理，上拉后内容加载到内存缓冲了了么
 - Context
-- findViewById() 实现原理 消耗费时
-	- [耗时](http://www.cnblogs.com/over140/archive/2011/03/23/1991100.html)
+- findViewById() 实现原理 消耗费时[耗时](http://www.cnblogs.com/over140/archive/2011/03/23/1991100.html)
 - setContentView() 实现原理
 - CustomView 
 - View的源码
@@ -39,23 +54,6 @@
 - Eventbus vs otto vs Rxbus
 - 声明周期到底是如何回调的
 - 消息机制 Message Handler
-
- 
-## skills
-
-- Service: boundService/DreamService
-- jni ndk 的使用
-- Mock [BookdashAndroidApp](https://github.com/spongebobrf/BookdashAndroidApp)
-- [ ppt js reveal.js](https://github.com/hakimel/reveal.js/)
-- RxJava
-	- [RxJava api](http://reactivex.io/languages.html)
-	- [仍物线 RxJava](http://gank.io/post/560e15be2dca930e00da1083)
-- 使用RenderScript和压缩来计算高斯模糊
-- 复制内容到粘贴板
-- [Maven](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=401572523&idx=1&sn=19504d41b81f82a5388ae4f95072aea5&scene=0)
-- [reveal-js](http://lab.hakim.se/reveal-js/#/)
-- Android shape
-- Looper && Handler Thread
 
  
 ## 架构设计

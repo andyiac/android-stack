@@ -36,6 +36,8 @@
 ### RxJava
 - [扔物线 给Android开发者的RxJava详解](http://gank.io/post/560e15be2dca930e00da1083)
 - [一本讲RxJava不错的gitbook](https://www.gitbook.com/book/yongjhih/feed/details)
+- [RxJava api](http://reactivex.io/languages.html)
+- [仍物线 RxJava](http://gank.io/post/560e15be2dca930e00da1083)
 
 ### Dagger2
 

@@ -78,8 +78,6 @@
 				<x-markdown src="section/02_android_problems.md"/>
 			</article>
 
-		
-
 			<article>
 				<x-markdown src="section/93_git.md"/>
 			</article>
@@ -87,10 +85,12 @@
 			<article>
 				<x-markdown src="section/94_blogs.md"/>
 			</article>
-			
+
+			<!-- 
 			<article>
 				<x-markdown src="section/95_find_job.md"/>
-			</article>
+			</article> 
+			-->
 
 			<article>
 				<x-markdown src="section/96_tips.md"/>
