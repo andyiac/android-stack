@@ -71,6 +71,14 @@
 			</article>
 			
 			<article>
+				<x-markdown src="section/03_basic_stack.md"/>
+			</article>
+			
+			<article>
+				<x-markdown src="section/04_pro_stack.md"/>
+			</article>
+			
+			<article>
 				<x-markdown src="section/92_problems.md"/>
 			</article>
 			
