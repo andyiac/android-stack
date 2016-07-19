@@ -29,7 +29,8 @@
 			width: 200px;
 			}
 
-		/*	header {
+			/*
+			header {
 			padding-left: 200px;
 			}
 
@@ -40,6 +41,7 @@
 			footer {
 			padding-left: 200px;
 			}*/
+			
 		</style>
 
 	</head>
@@ -64,6 +66,22 @@
 				<x-markdown src="section/02_android_problems.md"/>
 			</article>
 
+			<article>
+				<x-markdown src="section/91_goal.md"/>
+			</article>
+			
+			<article>
+				<x-markdown src="section/92_problems.md"/>
+			</article>
+
+			<article>
+				<x-markdown src="section/93_git.md"/>
+			</article>
+			
+			<article>
+				<x-markdown src="section/94_blogs.md"/>
+			</article>
+			
 			<article>
 				<x-markdown src="section/95_find_job.md"/>
 			</article>

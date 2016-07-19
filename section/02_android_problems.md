@@ -1,20 +1,7 @@
 Android-Stack Android 技术栈
 ===
 
-## doing
 
--  [下拉刷新实现的原理 看一下百万哥的](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh.git)
--  KVDB github: DBFlow
-- [Android性能优化](http://www.stuq.org/courseware/966/1129)
-- 刷新loading setrefreshing
-
-Android 深入理解Android中的自定义属性
-- [http://blog.csdn.net/lmj623565791/article/details/45022631](http://blog.csdn.net/lmj623565791/article/details/45022631)
-
- Android测试框架引入 可以参考
-
-- [android cleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
-- [Jake Wharton u2020](https://github.com/JakeWharton/u2020)
 
 Zcommon
 
@@ -26,31 +13,10 @@ Zcommon
 - hash
 - String
 - 短信验证的倒计时读秒
-
-
 - ［√］View ViewGroup LinearLayout ...
 - okhttp 和 retrofit 引入
 - [引入缓存](http://omgitsmgp.com/2015/12/02/effective-okhttp/) 
-
-
-## 疑惑
-- Android 最开始为一个APP分配多少内存  
-- Android 的性能分析指标都有哪些
-- Java final 关键字 在listview 中拿到ListItem
-- ListView adapter 中getView中的设置背景 设置的全局变量 不生效，局部final变量，设置背景才可变
-- 工程目录中lib与libs的区别
-
-## 要达
-- 到不用查文档的地步直接翻翻SDK中的sourcecode就直接能上手的地步
-- 熟读Android SDK
-- Activity系列
-- Service 系列
-- 熟读JAVA SDK
-- 熟读常用类库SDK
-
-
  
-
 
 ## 源码分析
 
@@ -256,23 +222,7 @@ Others
 - [专访YYKit作者郭曜源：开源大牛是怎样炼成的](http://www.infoq.com/cn/news/2015/11/ibireme-interview)
 - [sui.taobao.org](http://m.sui.taobao.org/)
 
-Blogs
-- [秋百万 liaohuqiu](http://liaohuqiu.net/)
-- [林惠文 daimajia](http://blog.daimajia.com/)
-- [郭曜源 ibireme](http://blog.ibireme.com/)
-- [androidperformance.com](http://androidperformance.com/)
 
-- [Android-Developer-Blog-Rss](https://github.com/CodingFish2015/Android-Developer-Blog-Rss)
-- [futurestud.io](https://futurestud.io/) 
-- [AndroidNote](https://github.com/CharonChui/AndroidNote) Android笔记
-- [tech.meituan.com](http://tech.meituan.com/) 美团技术博客
-- [best-blogs-for-ios-developers](http://www.softwarehow.com/best-blogs-for-ios-developers/)
-
-Git 开发流程 GitFlow
-- [why-arent-you-using-git-flow](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/)
-- [github gitflow](https://github.com/nvie/gitflow)
-- [a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model)
-- [Android 提升开发效率](https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=400785752&idx=1&sn=e1c166e7fad0892811c9ca9bca6d1540)
 
 Videos
 - [parleys](https://www.parleys.com)
