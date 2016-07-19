@@ -1,9 +1,9 @@
 ## Links 
 
+- [LearningNotes](https://github.com/GeniusVJR/LearningNotes)
 - [java 99 problems](https://github.com/shekhargulati/99-problems)
 - [CommonUtils](https://github.com/CommonUtils/android)
-- [LearningNotes](https://github.com/GeniusVJR/LearningNotes)
-- [imooc hyman](http://www.imooc.com/space/teacher/id/320852)
+- [imooc](http://www.imooc.com/)
 - [每个Android开发者都应该了解的资源列表](http://www.admin10000.com/document/6858.html)
 - [android-performance-case-study](http://www.curious-creature.com/2012/12/01/android-performance-case-study/)
 	
