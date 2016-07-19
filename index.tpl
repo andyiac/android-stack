@@ -61,10 +61,6 @@
 
 		<div class="main container">
 	
-			
-			<article>
-				<x-markdown src="section/02_android_problems.md"/>
-			</article>
 
 			<article>
 				<x-markdown src="section/91_goal.md"/>
@@ -73,6 +69,12 @@
 			<article>
 				<x-markdown src="section/92_problems.md"/>
 			</article>
+			
+			<article>
+				<x-markdown src="section/02_android_problems.md"/>
+			</article>
+
+		
 
 			<article>
 				<x-markdown src="section/93_git.md"/>
