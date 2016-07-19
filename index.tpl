@@ -63,6 +63,10 @@
 	
 
 			<article>
+				<x-markdown src="section/01_title.md"/>
+			</article>
+
+			<article>
 				<x-markdown src="section/91_goal.md"/>
 			</article>
 			
