@@ -1,7 +1,7 @@
 ## todo
 
 
-doing
+### doing
 
 - [下拉刷新实现的原理 看一下百万哥的](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh.git)
 - KVDB github: DBFlow
@@ -13,7 +13,7 @@ doing
 	- [Jake Wharton u2020](https://github.com/JakeWharton/u2020)
 
 
-android-stack
+### android-stack
 
 - [x]添加 css 这个页面实在是太丑了
 - [x]使用了 hack css 
