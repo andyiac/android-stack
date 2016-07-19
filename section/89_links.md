@@ -80,3 +80,7 @@
 - [计算机科学公开课 computer-science](https://github.com/open-source-society/computer-science)
 - [udacity](https://www.udacity.com)
 - [visualgo](http://www.visualgo.net)
+
+### 本文访问分析
+
+[google analytics/web](https://analytics.google.com/analytics/web/)
