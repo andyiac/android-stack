@@ -169,7 +169,7 @@ Zcommon
 - [visualgo.net](http://visualgo.net/)
 - [数据结构与算法](http://algorithm.yuanbin.me/zh-hans/index.html)
 
-## AndroidStudio 插件
+## AS 插件
 
 - GsonFormat 快速生成json文件的工具
 	使用方法 command ＋ n  选择GsonFormat 将正确的json数据粘贴到输入框即可 

@@ -5,3 +5,4 @@
 一些tips 
 
 - 无意发现 sublime 一个快捷键，在写 markdown 时，Ctrl + t 然后输入 @ 就会出现目录列表，这个我太喜欢了。
+	- 更新，直接使用 command + r 可以产生同样的效果
