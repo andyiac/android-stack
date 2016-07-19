@@ -1,6 +1,6 @@
 ## android-stack
 
-[www.android-stack.com](www.android-stack.com)
+[www.android-stack.com](http://www.android-stack.com)
 
 Android技术栈
 
