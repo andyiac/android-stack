@@ -1,28 +1,13 @@
 Android-Stack Android 技术栈
 ===
 
-
-
-Zcommon
-
-看完马天宇的 android common 自己写的这个库实在是不足，不过可以自己练习库的写法
-
-- 网络状态
-- KVdb
-- md5
-- hash
-- String
-- 短信验证的倒计时读秒
-- ［√］View ViewGroup LinearLayout ...
-- okhttp 和 retrofit 引入
-- [引入缓存](http://omgitsmgp.com/2015/12/02/effective-okhttp/) 
- 
+目前为 andyiac 个人知识梳理，正在整理成公众版 
 
 ## 源码分析
 
-- ［√］layout源码分析布局 weight layout_weight hyman的视频
+- layout源码分析布局 weight layout_weight hyman的视频
 	- [weight](http://blog.csdn.net/xiechengfa/article/details/38334327)
-- ［√］view 的onclick 事件是如何分发的
+- view 的onclick 事件是如何分发的
 - HashMap sourcecode
 - listview 性能优化 viewholder 重用的convertview
 	- 判断上滑下滑
@@ -30,12 +15,10 @@ Zcommon
 	- RecylerBin
 	- 添加header
 	- [Listview 内存优化](http://www.xuanyusong.com/archives/1252) 	- [ListView性能优化之视图缓存](http://www.cnblogs.com/over140/archive/2011/03/23/1991100.html)
-	
 - listview的机制、实现原理，上拉后内容加载到内存缓冲了了么
 - Context
 - findViewById() 实现原理 消耗费时
 	- [耗时](http://www.cnblogs.com/over140/archive/2011/03/23/1991100.html)
-
 - setContentView() 实现原理
 - CustomView 
 - View的源码
@@ -49,9 +32,6 @@ Zcommon
 - 生命周期中的回调函数实现原理
 
 
-
- 
-
 ## View
 
 - 上传jcenter 或 Maven仓库
@@ -64,7 +44,6 @@ Zcommon
 - Eventbus vs otto vs Rxbus
 - 声明周期到底是如何回调的
 - 消息机制 Message Handler
-
 
  
 ## skills
@@ -151,29 +130,17 @@ Zcommon
 
 ## publish to maven	
 	
--  [Pushing-aars-to-maven-central](http://chris.banes.me/2013/08/27/pushing-aars-to-maven-central/)
--  [✓] [Android Studio使用Gradle上传AAR至Maven](http://2dxgujun.com/post/2015/02/11/Publish-AAR-to-Maven-Central-with-Gradle.html)
--  [how-to-upload-library-to-maven-central](http://git.bookislife.com/post/2015/how-to-upload-library-to-maven-central)
--  [upload-android-library-to-moven-central](http://linroid.com/2015/03/13/upload-android-library-to-moven-central/)
--  [release-library-to-jcenter](http://blog.saymagic.cn/2015/02/16/release-library-to-jcenter.html)
+- [Pushing-aars-to-maven-central](http://chris.banes.me/2013/08/27/pushing-aars-to-maven-central/)
+- [Android Studio使用Gradle上传AAR至Maven](http://2dxgujun.com/post/2015/02/11/Publish-AAR-to-Maven-Central-with-Gradle.html)
+- [how-to-upload-library-to-maven-central](http://git.bookislife.com/post/2015/how-to-upload-library-to-maven-central)
+- [upload-android-library-to-moven-central](http://linroid.com/2015/03/13/upload-android-library-to-moven-central/)
+- [release-library-to-jcenter](http://blog.saymagic.cn/2015/02/16/release-library-to-jcenter.html)
 - [oss.sonatype.org](https://oss.sonatype.org)
 - [issues.sonatype.org](https://issues.sonatype.org)
-
-
 
 ## Candies 
 
 - [Music for programming](http://musicforprogramming.net/)
-
-## 工具类
-
-- [android arsenal](http://www.android-arsenal.com/)
-- [android dev tools](http://androiddevtools.cn/)
-- IDEA 15
-  注册码可以沿用14的,只是在 注册时选择 License server ，填 http://idea.lanyus.com 然后点击 OK
-
-- [Charles 抓包](http://drops.wooyun.org/tips/2423)  
-
 
 ## 架构
 - [Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
@@ -183,15 +150,7 @@ Zcommon
 - [EffectiveAndroid](https://github.com/rallat/EffectiveAndroid)
 
 
-Awesome android
-
-- [http://snowdream.github.io/awesome-android/](http://snowdream.github.io/awesome-android/)
-
-Awesome list 
-
-- [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
-
- RxJava
+RxJava
 - [扔物线 给Android开发者的RxJava详解](http://gank.io/post/560e15be2dca930e00da1083)
 - [一本讲RxJava不错的gitbook](https://www.gitbook.com/book/yongjhih/feed/details)
 
@@ -211,8 +170,10 @@ Resources
 - [Google Material icons](http://www.google.com/design/icons/) 谷歌官方提供
 - [Cool UI](https://medium.com/@BashaChris/the-android-viewpager-has-become-a-fairly-popular-component-among-android-apps-its-simple-6bca403b16d4#.n70fuwmf5)
 
+
 MVP Pattern
 - [basic architecture for mvp](https://medium.com/mobiwise-blog/android-basic-project-architecture-for-mvp-72f4b33252d0#.aiut445m5)
+
 
 Others
 - [Worth Reading the Android technical articles](https://github.com/zmywly8866/Worth-Reading-the-Android-technical-articles)
@@ -221,15 +182,16 @@ Others
 - [github 团队博客](http://githubengineering.com/)
 - [专访YYKit作者郭曜源：开源大牛是怎样炼成的](http://www.infoq.com/cn/news/2015/11/ibireme-interview)
 - [sui.taobao.org](http://m.sui.taobao.org/)
-
+- [awesome-android/](http://snowdream.github.io/awesome-android/)
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
 
 
 Videos
 - [parleys](https://www.parleys.com)
 - [www.freecodecamp.com/](http://www.freecodecamp.com/)
-- [youtube custom views](https://www.youtube.com/watch?v=NYtB6mlu7vA) daimajia 推荐
+- [daimajia 推荐 youtube custom views](https://www.youtube.com/watch?v=NYtB6mlu7vA) 
 
 开放大学
-- [computer-science](https://github.com/open-source-society/computer-science) 计算机科学公开课
+- [计算机科学公开课 computer-science](https://github.com/open-source-society/computer-science)
 - [udacity](https://www.udacity.com)
 - [visualgo](http://www.visualgo.net)
