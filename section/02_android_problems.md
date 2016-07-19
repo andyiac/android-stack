@@ -63,7 +63,7 @@ Android-Stack Android 技术栈
 - Looper && Handler Thread
 
  
-## 架构设计模式
+## 架构设计
 
 - GitHub：AndroidDynamicLoader
 - GitHub：Android-CleanArchitecture

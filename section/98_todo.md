@@ -15,7 +15,8 @@ doing
 
 android-stack
 
-- 添加 css 这个页面实在是太丑了
-- 使用了 hack css 
-- 添加访问统计之类的
-- 最重要的是更新出高质量的内容 
+- [x]添加 css 这个页面实在是太丑了
+- [x]使用了 hack css 
+- [x]添加访问统计之类的
+- [.]最重要的是更新出高质量的内容 
+- [this theme is cool](https://zeit.co/)
