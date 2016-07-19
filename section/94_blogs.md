@@ -1,5 +1,7 @@
 ## 推荐博客
 
+- [jakewharton.com](http://jakewharton.com/)
+- [chris.banes.me](http://chris.banes.me/)
 - [秋百万 liaohuqiu](http://liaohuqiu.net/)
 - [林惠文 daimajia](http://blog.daimajia.com/)
 - [郭曜源 ibireme](http://blog.ibireme.com/)
