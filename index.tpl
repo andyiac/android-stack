@@ -115,6 +115,10 @@
 			<article>
 				<x-markdown src="section/89_links.md"/>
 			</article>
+
+			<article>
+				<x-markdown src="section/87_books.md"/>
+			</article>
 			
 			<footer>
 				<x-markdown src="section/99_footer.md"/>
