@@ -71,7 +71,33 @@
 				<x-markdown src="section/05_android_stack.md"/>
 			</article>
 
+	
 			
+			<footer>
+				<x-markdown src="section/99_footer.md"/>
+			</footer>
+
+		</div>
+		
+	<!-- Google Analytics -->
+	<script>
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-69625956-4', 'auto');
+  	ga('send', 'pageview');
+	</script>
+	<script async src='//www.google-analytics.com/analytics.js'></script>
+	<!-- End Google Analytics -->		
+	
+	</body>
+
+
+
+</html>
+
+
+
+
+		
 			<!-- 
 				<article>
 					<x-markdown src="section/91_goal.md"/>
@@ -128,25 +154,3 @@
 				<x-markdown src="section/95_find_job.md"/>
 			</article> 
 			-->
-
-			
-			<footer>
-				<x-markdown src="section/99_footer.md"/>
-			</footer>
-
-		</div>
-		
-	<!-- Google Analytics -->
-	<script>
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-69625956-4', 'auto');
-  	ga('send', 'pageview');
-	</script>
-	<script async src='//www.google-analytics.com/analytics.js'></script>
-	<!-- End Google Analytics -->		
-	
-	</body>
-
-
-
-</html>
