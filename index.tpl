@@ -17,7 +17,7 @@
 			padding: 0 10pt;
 			}*/
 
-			/*nav {
+			nav {
 			background: white;
 			color: white;
 			overflow-x: hidden;
@@ -27,7 +27,7 @@
 			left: 0;
 			bottom: 0;
 			width: 200px;
-			}*/
+			}
 
 			/*
 			header {
@@ -66,12 +66,9 @@
 				<x-markdown src="section/01_title.md"/>
 			</article>
 
-
 			<article>
 				<x-markdown src="section/05_android_stack.md"/>
 			</article>
-
-	
 			
 			<footer>
 				<x-markdown src="section/99_footer.md"/>
