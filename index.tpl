@@ -79,6 +79,10 @@
 			</article>
 			
 			<article>
+				<x-markdown src="section/05_android_stack.md"/>
+			</article>
+
+			<article>
 				<x-markdown src="section/92_problems.md"/>
 			</article>
 			

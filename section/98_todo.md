@@ -20,6 +20,7 @@
 - [x]使用了 hack css 
 - [x]添加访问统计之类的
 - [this theme is cool](https://zeit.co/)
+- [github blog theme 可以开一个 blog.andorid-stack.com](http://mazhuang.org/)
 - 适配手机尺寸
 - SEO
 - 国际化
