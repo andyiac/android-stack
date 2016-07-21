@@ -1,4 +1,3 @@
-05_android_slack.md
 
 ## basic
 
@@ -125,7 +124,7 @@
 		- ValueAnimation
 		- ObjectAnimation
 		- AnimationSet
-		
+
 ### Resource 
 	- assert
 		- AssertManager
