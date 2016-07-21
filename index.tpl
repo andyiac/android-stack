@@ -66,6 +66,12 @@
 				<x-markdown src="section/01_title.md"/>
 			</article>
 
+
+			<article>
+				<x-markdown src="section/05_android_stack.md"/>
+			</article>
+
+			
 			<!-- 
 				<article>
 					<x-markdown src="section/91_goal.md"/>
@@ -78,13 +84,7 @@
 				<article>
 					<x-markdown src="section/04_pro_stack.md"/>
 				</article>
-			 -->
 			
-			<article>
-				<x-markdown src="section/05_android_stack.md"/>
-			</article>
-
-			<!-- 
 				<article>
 					<x-markdown src="section/92_problems.md"/>
 				</article>
