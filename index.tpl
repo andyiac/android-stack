@@ -10,12 +10,12 @@
 
 		<style>
 
-			body {
+		/*	body {
 			font-family: Tahoma;
 			font-size: 10pt;
 			line-height: 170%;
 			padding: 0 10pt;
-			}
+			}*/
 
 			nav {
 			background: white;
