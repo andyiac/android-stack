@@ -17,7 +17,7 @@
 			padding: 0 10pt;
 			}*/
 
-			nav {
+			/*nav {
 			background: white;
 			color: white;
 			overflow-x: hidden;
@@ -27,7 +27,7 @@
 			left: 0;
 			bottom: 0;
 			width: 200px;
-			}
+			}*/
 
 			/*
 			header {
