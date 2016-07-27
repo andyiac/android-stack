@@ -89,3 +89,4 @@
 
 ### blog theme
 - [typecho](http://typecho.org/)
+- [web-design-in-4-minutes](https://github.com/jgthms/web-design-in-4-minutes)
