@@ -17,7 +17,6 @@
 			padding: 0 10pt;
 			}*/
 
-			/*
 
 			nav {
 			background: white;
@@ -30,7 +29,6 @@
 			bottom: 0;
 			width: 200px;
 			}
-			*/
 
 			/*
 			header {
