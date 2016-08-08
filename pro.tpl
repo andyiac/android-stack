@@ -17,6 +17,8 @@
 			padding: 0 10pt;
 			}*/
 
+			/*
+
 			nav {
 			background: white;
 			color: white;
@@ -28,6 +30,7 @@
 			bottom: 0;
 			width: 200px;
 			}
+			*/
 
 			/*
 			header {
@@ -61,11 +64,6 @@
 
 		<div class="main container">
 	
-
-			<article>
-				<x-markdown src="section/01_title.md"/>
-			</article>
-
 			<article>
 				<x-markdown src="section/06-android-slack-pro.md"/>
 			</article>
