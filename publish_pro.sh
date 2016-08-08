@@ -1,5 +1,5 @@
 #!/bin/bash
-./tianshu/bin/tianshu index_pro.tpl
+./tianshu/bin/tianshu pro.tpl
 
 git add .
 
